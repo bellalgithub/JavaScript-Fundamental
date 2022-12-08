@@ -125,3 +125,27 @@ Output:
   ] */
 
 
+
+const student = ['Rahim', 'Karim', 'Solim', 'Tolim', 'Molim', 'Folim', 'Salam', 'Kalam'];
+
+const part = student.slice(3); // If we not set the end point then it takes from start point to end. Original array can not change. Only creating new array with Slice
+// console.log(part);
+// console.log(student);
+// Output:
+
+// [ 'Tolim', 'Molim', 'Folim', 'Salam', 'Kalam' ]
+
+/* const part1 = student.slice(3, 1);
+const part2 = student.slice(3, 7);
+
+console.log(part1);
+console.log(part2);
+
+Output: 
+
+[]
+[ 'Tolim', 'Molim', 'Folim', 'Salam' ] */
+
+
+
+
